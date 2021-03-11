@@ -1,4 +1,7 @@
 # dunder or magic methods (Double Underscore)
+
+# Methods that python already know about and when you use them you can map them into your own code.
+
 from todo import Todo
 
 k_todo = Todo(name='Kingsley')
@@ -11,11 +14,19 @@ e_todo = Todo(name= 'Emmanuel')
 # print(str(k_todo))
 # print(str(e_todo))
 
-print(k_todo)
-print(e_todo)
+# print(k_todo)
+# print(e_todo)
+
+k_todo.add('buy milk')
+k_todo.add('Code Python')
+k_todo.add('Cook Dinner')
 
 
+# print(len(k_todo))
+# print(len(e_todo))
 
+print(k_todo > e_todo)
+print(k_todo < e_todo)
 
 
 
